@@ -1,0 +1,260 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.mainBackground {
+  background: #b3d4e9;
+}
+.wrapper {
+  display: flex;
+  column-gap: 28px;
+}
+.mainBlock {
+  max-width: 942px;
+  margin: 50px auto;
+}
+.wrapperBlock {
+  width: 868px;
+}
+.verticalLine {
+  width: 46px;
+  height: 1005px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrapperNavigation {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+.firstWord,
+.secondWord {
+  font-family: "Playfair Display";
+  font-weight: 600;
+  line-height: 30px;
+  font-size: 25px;
+  color: white;
+  margin-left: 15px;
+}
+
+.oneBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 45px;
+}
+.twoBlock {
+  height: 475px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.threeRow {
+  width: 24px;
+  height: 23px;
+  display: block;
+}
+.textInOneBlock {
+  rotate: -90deg;
+  width: 108px;
+  height: 100px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: black;
+}
+.textInTwoBlock {
+  rotate: -90deg;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: black;
+}
+.firstBlock {
+  background-color: #00042d;
+  height: 778px;
+  position: relative;
+}
+.h1FirstBlock {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  line-height: 90px;
+  font-size: 90px;
+  color: white;
+  margin-bottom: 8px;
+}
+.pFirstBlock {
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 58px;
+}
+.pFirstBlock span {
+  font-weight: 600;
+  font-style: italic;
+}
+.downloadCv {
+  font-family: "Montserrat";
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: white;
+  background-color: #00042d;
+  border: 2px solid white;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+}
+.leftBlock {
+  max-width: 475px;
+  padding-top: 100px;
+  padding-left: 80px;
+}
+.manWithSunglasses {
+  position: absolute;
+  top: 133px;
+  left: 659px;
+}
+
+.secondBlock {
+  height: 640px;
+  background-color: white;
+  padding: 80px 0px 0px 80px;
+}
+.topText {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 95px;
+}
+.verticalLineinBlock {
+  height: 100px;
+  width: 3px;
+  background: black;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.h2Text {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0px 0px 30px 0px;
+}
+
+.bottomText {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+.thirdBlock {
+  background-color: #00042d;
+  height: 329px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.textForAllBlock {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+}
+.fourthBlock {
+  min-height: 868px;
+  background-color: white;
+  padding: 80px 0px 0px 80px;
+}
+.wrapperFourthBlock {
+  max-width: 639px;
+}
+.textWithMinus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textTeam {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.minus {
+  width: 5px;
+  height: 2px;
+  background-color: black;
+}
+.onlyText,
+.textInOnlyText {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 32px;
+}
+
+.textInOnlyText {
+  font-weight: 700;
+}
+.horizontalLine {
+  margin-top: 23px;
+  background-color: black;
+  height: 2px;
+}
+
+/* details[open] > summary {
+  color: rgb(247, 23, 23);
+  background-color: rgb(39, 182, 103);
+  transition: all 3s;
+} */
+summary {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 25px 0px 4px 0px;
+  /* border-bottom: 2px yellow solid;
+  cursor: pointer;
+
+  list-style-type: none; */
+}
+details > summary {
+  /* background-color: #eee; */
+  /* color: #333; */
+  border-bottom: 2px yellow solid;
+  cursor: pointer;
+
+  list-style-type: none;
+}
+
+summary:after {
+  content: "+";
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  line-height: 30px;
+}
+
+details[open] summary:after {
+  content: "-";
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  line-height: 30px;
+}

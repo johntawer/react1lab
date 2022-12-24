@@ -1,0 +1,342 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.mainBackground {
+  background: #b3d4e9;
+}
+.wrapper {
+  display: flex;
+  column-gap: 28px;
+}
+.wrapperNavigation {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.mainBlock {
+  max-width: 942px;
+  margin: 50px auto 0px auto;
+}
+.wrapperBlock {
+  width: 868px;
+}
+.verticalLine {
+  width: 46px;
+  height: 1005px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.firstBlock {
+  background-color: #00042d;
+  height: 1348px;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+.firstWord,
+.secondWord {
+  font-family: "Playfair Display";
+  font-weight: 600;
+  line-height: 30px;
+  font-size: 25px;
+  color: white;
+  margin-left: 15px;
+}
+.topText {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 95px;
+  color: white;
+  margin-left: 80px;
+}
+.verticalLineinBlock {
+  height: 100px;
+  width: 3px;
+  margin-bottom: 40px;
+  background-color: white;
+  margin-left: 80px;
+}
+.wrapperImg {
+  margin-left: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bigSizeText,
+.smallSizeText {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 95px;
+  color: white;
+}
+.wrapperText {
+  margin-top: 13px;
+  margin-left: 80px;
+}
+.smallSizeText {
+  font-size: 20px;
+  margin-right: 15px;
+}
+.secondBlock {
+  height: 1207px;
+  padding: 78px 0px 0px 80px;
+  background-color: white;
+}
+.customColorText {
+  color: black;
+  margin-left: 0px;
+  margin-bottom: 40px;
+}
+.customColor {
+  background-color: black;
+  margin-left: 0px;
+}
+.h2Text {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0px 0px 30px 0px;
+}
+.bottomText {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+.ball,
+.ballInBall {
+  border-radius: 100%;
+  border: 2px solid black;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lineBall {
+  width: 2px;
+  height: 53px;
+  background-color: black;
+}
+.step {
+  display: flex;
+  height: 385px;
+}
+.wrapperBall {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  width: 35px;
+  align-items: center;
+}
+.ballInBall {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border: none;
+}
+.yearText {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.blockYear {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 35px;
+}
+.blockText {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+.wrapperBlockStep {
+  display: flex;
+  margin-top: 115px;
+}
+.wrapperTextStep {
+  margin-left: 58px;
+}
+.thirdBlock {
+  height: 702px;
+  background-color: #00042d;
+  padding-top: 70px;
+}
+.marginB {
+  margin-bottom: 40px;
+}
+.wrapperLoading {
+  max-width: 485px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.textOneBlock {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 30px;
+  letter-spacing: 6px;
+  color: white;
+
+  padding-left: 10px;
+}
+.line {
+  width: 389px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 050%;
+  z-index: 1;
+}
+.textWithLine {
+  position: relative;
+  width: 389px;
+  height: 30px;
+}
+.percent {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: -1px;
+  color: white;
+  margin: 0px 20px 0px 20px;
+}
+.blocks {
+  display: flex;
+  align-items: center;
+  margin-bottom: 23px;
+}
+.wrapperTextOneBlock {
+  border: 2px solid white;
+  width: 225px;
+  z-index: 2;
+  background-color: #00042d;
+  position: absolute;
+}
+.widthForTwoBlock {
+  width: 317px;
+}
+.widthForThreeBlock {
+  width: 276px;
+}
+.widthForFourBlock {
+  width: 361px;
+}
+.widthForFiveBlock {
+  width: 225px;
+}
+.mgBtm {
+  margin-bottom: 61px;
+}
+.fourthBlock {
+  padding-top: 106px;
+  padding-left: 80px;
+  height: 914px;
+  background-color: white;
+}
+.mgTop {
+  margin-top: 20px;
+}
+.fifthBlock {
+  padding-top: 78px;
+  height: 1064px;
+  background-color: #00042d;
+}
+.colorW {
+  color: white;
+}
+.textEmail {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.contactBlockText {
+  margin-left: 80px;
+}
+.emailWebsite {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+  margin-right: 5px;
+}
+.inputBtnWrapper {
+  margin-top: 30px;
+  width: 480px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 37px;
+}
+.inputName {
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 5px;
+  padding: 0px 0px 10px 10px;
+  color: white;
+}
+.inputMessage {
+  margin-top: 12px;
+}
+.sendMes {
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: white;
+  background-color: #00042d;
+  border: 2px solid white;
+  padding: 16px 40px 16px 40px;
+  cursor: pointer;
+  width: 244px;
+}
+.sixthBlock {
+  height: 160px;
+  background-color: white;
+  width: 868px;
+}
+.wrapperIcons {
+  padding-top: 56px;
+  padding-left: 112px;
+}
+.footerImg {
+  margin-right: 26px;
+}
+.footerText {
+  padding-left: 112px;
+  margin-top: 25px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 14px;
+}
+.marginForFooter {
+  width: 74px;
+}
+.wrapperFooter {
+  width: 942px;
+  margin: 0px auto;
+  display: flex;
+}
